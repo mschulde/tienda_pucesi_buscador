@@ -1,6 +1,6 @@
 import { useState } from "react";
-import CardProducto from "../components/CardProducto"
-import SeccionCategoria from "../components/seccionCategoria"
+import CardProducto from "../components/CardProducto";
+import SeccionCategoria from "../components/SeccionCategoria";
 
 function Productos({ agregarProducto }) {
 
