@@ -27,7 +27,7 @@ function Ofertas({ agregarProducto }) {
         return <p className="p-4 text-danger fw-bold">Error: {error}</p>;
     }
 
-return (
+    return (
         <div className="bg-info p-4">
             <h2 className="mb-4 fw-bold">Productos en Oferta</h2>
             <div className="row gap-3 ps-3">
@@ -35,6 +35,7 @@ return (
                     <TarjetaOferta
                         key={item.id}
                         producto={{
+                            id: item.id,
                             nombre: item.title,
                             precio: item.price,
                             descuento: item.discountPercentage,
@@ -43,7 +44,6 @@ return (
                             imagen: item.thumbnail,
                             esLicor: false
                         }}
-
                         agregarProducto={agregarProducto}
                     />
                 ))}

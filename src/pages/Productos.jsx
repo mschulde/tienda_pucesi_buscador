@@ -22,7 +22,6 @@ function Productos({ agregarProducto }) {
         <div className="bg bg-info p-4">
             <div className="row">
                 
-                {/* LADO IZQUIERDO: PRODUCTOS */}
                 <div className="col-md-8">
                     <h2 className="badge bg-secondary mb-3 fs-4">Lista de Productos</h2>
                     
