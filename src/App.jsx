@@ -34,7 +34,7 @@ function App() {
     <BrowserRouter>
       <main>
         <section>
-          <Encabezado titulo={"PUCE Ibarra"} />
+          <Encabezado titulo={"PUCE Ibarra - Chulde, Maldonado"} />
           <Routers>
             <Route path="/" element={<Inicio />} />
             <Route path="/productos" element={<Productos agregarProducto={agregarProducto} />} />
